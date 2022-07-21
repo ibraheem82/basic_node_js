@@ -1,0 +1,15 @@
+
+ ####### new chunks in another file ######
+You can enter arithmetic expressions and the shell will immediately evaluate them. You
+can write any legal JavaScript statement and the shell will immediately evaluate it as
+well. The interactive shell is great for exploring JavaScript statements to discover how
+they work. To leave the shell when you are finished, type the command quit().
+The other way to use the shell is to have it interpret complete JavaScript programs. This
+is how we will use the shell throughout the rest of the book.
+To use the shell to intepret programs, you first have to create a file that contains a
+JavaScript program. You can use any text editor, making sure you save the file as plain
+text. The only requirement is that the file must have a .js extension. The shell has to see
+this extension to know the file is a JavaScript program.
+Once you have your file saved, you interpret it by typing the js command followed by
+the full filename of your program. For example, if you saved the for loop code fragment
+that’s shown earlier in a file named loop.js, you would enter the following:
